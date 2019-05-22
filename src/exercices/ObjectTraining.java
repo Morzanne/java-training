@@ -1,6 +1,4 @@
-package exercices;
-
-public class Person {
+public class ObjectTraining {
 
     // TODO 1. Add the following private attributes :
     // - name (String)
@@ -48,15 +46,13 @@ public class Person {
         this.wilder = wilder;
     }
 
-    /* TODO 9. Create a method 'whoAmI' that returns "My name is {name} and I'm {age}"
-     where you replace {name} and {age} with attributes values*/
+    // TODO 9. Create a method 'whoAmI' that returns "My name is {name} and I'm {age}"
+    // where you replace {name} and {age} with attributes values
     public String whoAmI(){
         return ("My name is "+ this.getName() +" and I'm "+this.getAge());
     }
 
-
-
     // Do not remove this empty constructor !
-    public Person() {
+    public ObjectTraining() {
     }
 }
